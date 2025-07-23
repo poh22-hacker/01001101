@@ -230,7 +230,29 @@ elif resposta == "5":
     os.system("python3 -m http.server 8080")
 
 elif resposta == "6":
-    print("⚠️ Termos e Condições serão definidos em breve.")
+    print('''
+📜 Eu, agente voluntário da Ordem 01001101, declaro, sob minha consciência e responsabilidade, que:
+
+1. Respeitarei o código da sombra, mantendo absoluto sigilo sobre as ferramentas, métodos e comunicações da ordem.
+
+2. Usarei este sistema **exclusivamente para fins educacionais, éticos e estratégicos**, jamais para ferir inocentes, causar danos injustificados ou agir sem causa legítima.
+
+3. Nunca revelarei minha identidade real durante operações, assumindo um codinome que represente minha presença digital.
+
+4. Se capturado, comprometo-me a **destruir todos os dados sensíveis**, ativando o protocolo de emergência sem hesitar.
+
+5. Agirei com inteligência, cautela e lealdade à verdade, à justiça e à soberania do conhecimento.
+
+6. Jamais deixarei rastros que comprometam a missão, os aliados ou a mim mesmo.
+
+7. Reconheço que o conhecimento é poder — e com ele, assumo o peso da responsabilidade.
+
+☠️ Ao prosseguir com o uso desta ferramenta, assumo este pacto diante da rede, da sombra e da minha consciência.
+
+01001101 não é um programa.  
+É uma ideia.
+
+''')
 
 elif resposta == "7":
     prefixos = ["Sombra", "Corvo", "Lobo", "Fantasma", "Vírus", "Sentinela"]
