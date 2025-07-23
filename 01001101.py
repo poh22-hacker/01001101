@@ -32,6 +32,7 @@ print('''
 [6]-Termos e Condições
 [7]-Gerador de Codinome
 [8]-Ferramentas Secretas
+[9]-Reinstalar
 [!]EMERGÊNCIA
 ''')
 
@@ -234,7 +235,7 @@ elif resposta == "6":
 
 elif resposta == "7":
     prefixos = ["Sombra", "Corvo", "Lobo", "Fantasma", "Vírus", "Sentinela"]
-    sufixos = ["X", "404", "Zero", "13", "Phantom", "1NTRUD3R"]
+    sufixos = ["X", "404", "Zero", "14", "Phantom", "1NTRUD3R"]
     print("Codinome gerado:", random.choice(prefixos) + random.choice(sufixos))
 
 elif resposta == "8":
@@ -280,6 +281,9 @@ elif resposta == "8":
     else:
         print("Opção secreta inválida.")
 
+elif ressposta == "9":
+    print("Copie e cole este comando para ATUALIZAR o SISTEMA")
+    print("git clone https://github.com/poh22-hacker/01001101.git")
 elif resposta == "!":
     print("⚠️ EMERGÊNCIA ATIVADA: Excluindo sistema...")
     time.sleep(2)
