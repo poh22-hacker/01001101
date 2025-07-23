@@ -281,8 +281,9 @@ elif resposta == "8":
     else:
         print("Opção secreta inválida.")
 
-elif ressposta == "9":
+elif resposta == "9":
     print("Copie e cole este comando para ATUALIZAR o SISTEMA")
+    print("rm -rf 01001101")
     print("git clone https://github.com/poh22-hacker/01001101.git")
 elif resposta == "!":
     print("⚠️ EMERGÊNCIA ATIVADA: Excluindo sistema...")
