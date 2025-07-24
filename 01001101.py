@@ -152,7 +152,16 @@ elif resposta == "5":
 
 elif resposta == "6":
     print(VERDE + '''
-📜 Eu, agente voluntário da Ordem 01001101, declaro...
+ Eu, agente voluntário da Ordem 01001101, declaro, sob minha consciência e responsabilidade, que:
+
+1. Respeitarei o código da sombra, mantendo absoluto sigilo sobre as ferramentas, métodos e comunicações da ordem.
+2. Usarei este sistema exclusivamente para fins educacionais, éticos e estratégicos.
+3. Nunca revelarei minha identidade real durante operações.
+4. Se capturado, ativarei o protocolo de emergência sem hesitar.
+5. Agirei com inteligência, cautela e lealdade.
+6. Jamais deixarei rastros que comprometam a missão.
+7. Reconheço que o conhecimento é poder — e com ele, assumo o peso da responsabilidade.
+
 01001101 não é um programa. É uma ideia.
 ''' + RESET)
 
