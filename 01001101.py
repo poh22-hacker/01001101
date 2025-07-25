@@ -93,7 +93,12 @@ if resposta == "1":
     opcao = input(VERMELHO + "Opção: " + RESET)
     if opcao == "1":
         dado = input(VERMELHO + "Binário: " + RESET)
-        print(VERDE + "Texto:", ''.join([chr(int(dado[i:i+8], 2)) for i in range(0, len(dado.replace(" ", "")), 8)]) + RESET)
+        dado = dado.replace(" ", "")
+        if len(dado) % 8 != 0:
+            print(VERMELHO + "Erro: número de bits inválido. Deve ser múltiplo de 8!" + RESET)
+        else:
+            texto = ''.join([chr(int(dado[i:i+8], 2)) for i in range(0, len(dado), 8)])
+            print(VERDE + "Texto:", texto + RESET)
     elif opcao == "2":
         dado = input(VERMELHO + "Morse (com ' / ' entre palavras): " + RESET)
         palavras = dado.strip().split(' / ')
