@@ -183,11 +183,11 @@ elif resposta == "2":
 
 elif resposta == "3":
     print(AZUL + "Instalando AutoTor..." + RESET)
-    os.system("apt install git -y && git clone https://github.com/Toxic-Noob/AutoTor && cd AutoTor && bash termux-autotor.sh")
+    os.system("git clone https://github.com/Toxic-Noob/AutoTor && cd AutoTor && bash termux-autotor.sh")
 
 elif resposta == "4":
     print(AZUL + "Instalando Gamkers-DDOS..." + RESET)
-    os.system("apt install git -y && git clone https://github.com/gamkers/Gamkers-DDOS && cd Gamkers-DDOS && chmod +x * && bash Gamkers-DDOS.sh")
+    os.system("git clone https://github.com/gamkers/Gamkers-DDOS && cd Gamkers-DDOS && chmod +x * && bash Gamkers-DDOS.sh")
 
 elif resposta == "5":
     print("Executando gerador de APK malicioso...")
